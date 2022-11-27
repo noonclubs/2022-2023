@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+color: white;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+
+}
+body {
+    background-color: #1f3f6f;
+
+}
+.main {
+    width: 100%;
+}
+.noon-title {
+    text-align: center;
+    font-size: 6vh;
+}
+.logo {
+    position: fixed;
+    top: 3%;
+    height: 8vh;
+    left: 5%;
+}
+.card {
+    color: black;
+    margin-top: 2vh;
+    margin-left: 5%;
+    box-shadow: 0 0.5% 1% rgba(0,0,0,.3);
+    backdrop-filter:blur(10px);
+
+    margin-right: 5%;
+    width: 40%;
+    background-color: rgba(229, 219, 217, 0.804);
+    box-shadow: 1px -2px 54px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px -2px 54px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -2px 54px -2px rgba(0,0,0,0.75);
+transition: .5s all ease;
+}
+.card::before {
+    box-shadow: inset 0 0 100px rgba(255,255,255,.5);
+
+}
+.card:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    box-shadow: 0 1% 1% rgba(0,0,0,.3);
+
+
+}
+.card-title {
+    text-align: center;
+    font-size: 2.5vh;
+    color: rgb(31,57,93);
+}
+.card-text {
+    text-align: center;
+    color: rgb(31,57,93);
+}
+.btn-club {
+    width: 50%;
+    background-color: #1f3f6f;
+    border: none;
+    font-size: 1.8VH;
+    margin-left: 25%;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-person {
+    width: 26%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
