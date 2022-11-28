@@ -5,6 +5,19 @@ color: white;
 font-family: 'IBM Plex Sans Arabic', sans-serif;
 
 }
+#execute{
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FN6GVMC7JB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FN6GVMC7JB');
+</script>
+
+}
 body {
     background-color: #1f3f6f;
 
