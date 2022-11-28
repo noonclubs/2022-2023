@@ -58,7 +58,8 @@ transition: .5s all ease;
     color: rgb(31,57,93);
 }
 .btn-club {
-    width: 30%;
+    width: 20vw;
+    margin-top: 3px;
     background-color: #1f3f6f;
     border: none;
     font-size: 1.8VH;
